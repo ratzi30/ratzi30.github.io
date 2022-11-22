@@ -1,0 +1,206 @@
+html, body {margin: 0; padding: 0; height: 100%; text-align: center;}
+section {min-height: 100%;}
+a {text-decoration: none;}
+li {list-style-type: none;}
+
+h1, h2, h3, a {font-family: 'Roboto', sans-serif; font-weight: 500; color: #494949; text-transform: uppercase;}
+h2 {color: #5d7177}
+h3 {font-size: 40px; padding-top: 8%; margin-bottom: 5px;}
+h4, p {font-family: 'Roboto Slab', serif; color: #494949;}
+
+hr{ width: 30px; height: 3px; background: #494949; border: 0; margin: 0 auto 40px auto;}
+#logo, li, img, .button {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
+
+/* HEADER *******************************************/
+
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+#logo {
+    width: 140px;
+    float: left;
+    margin: 10px 0 0 50px;
+}
+
+#logo:hover {
+    opacity: 0.5;
+}
+
+#logo img {
+    width: 44%;
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin: 10px 50px 0 0;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 25px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+}
+
+header nav ul li:hover {
+    padding-top: 5px;
+}
+
+/* HOME *********************************************/
+
+#home {
+    background: url(img/landing.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home h1 {
+    margin: 240px auto 0 auto;
+    font-size: 110px;
+    color: #e6e6e6;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.1)
+}
+
+#home h2 {
+    margin: 0 auto 0 auto;
+    font-size: 25px;
+    color: #e6e6e6;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#home img {
+    width: 32px;
+    margin-top: 150px;
+    opacity: 0.7;
+}
+
+#home img:hover {
+    opacity: 1;
+}
+
+/* ABOUT **********************************************/
+
+#about img {
+    width: 240px;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+#about h4 {
+    font-size: 25px;
+}
+
+#about p {
+    width: 700px;
+    margin: 0 auto 0 auto;
+}
+
+/* WORK **********************************************/
+
+#work {
+    background-color: #f0f0f0;
+}
+
+#projects {
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+#projects ul {
+    padding: 0;
+}
+
+#projects ul li {
+    width: 33.3%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#projects img {
+    width: 280px;
+    height: 170px;
+    border-radius: 7px;
+}
+
+#projects img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    box-shadow: 0 5px 5px rgba(0,0,0, 0.3);
+}
+
+/* CONTACT ******************************************/
+
+form, input, textarea {
+    font-family: 'Roboto slab', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 2px solid;
+    border-color: #494949;
+}
+
+form input:first-child {
+    margin-top: 10px;
+}
+
+form input {
+    width: 552px;
+    height: 30px;
+}
+
+form textarea {
+    width: 550px;
+    height: 200px;
+    resize: none;
+}
+
+.input_text {
+    color: #494949;
+    padding-left: 10px;
+}
+
+.button {
+    background-color: #f0f0f0;
+    color: #494949;
+    width: 566px;
+    height: 50px;
+}
+
+.button:hover {
+    background-color: #494949;
+    color: #f0f0f0;
+}
+
+/* FOOTER *****************************************/
+
+footer p {
+    color: #f0f0f0;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+   padding-top: 10px;
+}
+
+footer {
+    weight: 100%;
+    height: 40px;
+    background-color: #494949;
+}
